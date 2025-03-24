@@ -18,16 +18,21 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <style>
       .img {
-        width: 450px; /* تعديل الحجم */
-        height: 450px; /* جعله مربعًا للحفاظ على الدائرة */
-        border-radius: 50%; /* يجعلها دائرية */
-        border: 5px solid #ddd; /* إضافة إطار خفيف لجمالية أكثر */
+        width: 100%;
+        max-width: 450px; /* الحد الأقصى للحجم */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .img img {
         width: 100%;
-        height: 100%;
-        object-fit: contain; /* يضمن ملء الصورة بشكل متناسق دون تشويه */
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        border: 5px solid #ddd;
+        object-fit: cover; /* يضمن ملء الصورة بشكل متناسق */
       }
 
       .home-sci a::after {
@@ -102,7 +107,7 @@
         </h4>
 
         <div class="img">
-          <img src="./img/DSC_002.png" class="responsive" />
+          <img src="./img/DSC_0052.JPG" class="responsive" />
         </div>
 
         <div class="home-sci">
