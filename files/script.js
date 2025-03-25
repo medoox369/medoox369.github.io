@@ -19,3 +19,12 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const menuBtn = document.getElementById("menu-btn");
+  const navLinks = document.getElementById("myLinks");
+
+  menuBtn.addEventListener("click", function () {
+    navLinks.classList.toggle("show");
+  });
+});
+ض;
