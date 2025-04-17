@@ -937,7 +937,7 @@ body {
   /*home*/
   .home {
     align-items: normal;
-    padding-top: 40%;
+    padding-top: 10%;
     padding-bottom: 0;
   }
   .home-content h1 {
