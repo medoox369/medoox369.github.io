@@ -1011,21 +1011,7 @@ body {
     padding: 10px;
     margin-left: 0px;
   }
-  .bar .info .addhtml::before {
-    content: "90%";
-  }
-  .bar .info .addcss::before {
-    content: "80%";
-  }
-  .bar .info .addpy::before {
-    content: "75%";
-  }
-  .bar .info .addjava::before {
-    content: "50%";
-  }
-  .bar .info .addc::before {
-    content: "50%";
-  }
+
 
   /*project*/
   .main-text {
@@ -1068,7 +1054,7 @@ body {
     opacity: 0;
     transition: all 0.4s;
   }
-}
+
 
 @media (max-width: 400px) {
   * {
