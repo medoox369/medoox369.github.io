@@ -1054,7 +1054,7 @@ body {
     opacity: 0;
     transition: all 0.4s;
   }
-
+}
 
 @media (max-width: 400px) {
   * {
